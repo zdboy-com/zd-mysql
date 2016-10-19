@@ -1,0 +1,49 @@
+{
+  "title": "document",
+  "author": "zdboy.com",
+  "description": "zd-mysql使用说明与示例演示",
+  "generator": "site",
+  "language": "zh-hans",
+  "gitbook": "3.2.1",
+  "root": "./docs",
+  "links" : {
+    "sidebar" : {
+      "震荡BOY博客" : "http://www.zdboy.com"
+    }
+  },
+  "plugins": [
+    "github",
+    "-search",
+    "advanced-emoji",
+    "emphasize",
+    "splitter",
+    "tbfed-pagefooter",
+    "codeblock-filename",
+    "toc2"
+  ],
+  "pluginsConfig": {
+    "github": { "url": "https://github.com/zdboy-com" },
+    "tbfed-pagefooter": {
+      "copyright": "&copy zdboy.com",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "google": false,
+      "weibo": true,
+      "instapaper": false,
+      "vk": false
+    },
+    "fontsettings": {
+      "theme": "white",
+      "family": "sans",
+      "size": 2
+    },
+    "lunr": {
+      "maxIndexSize": 1000000,
+      "ignoreSpecialCharacters": false
+    }
+  }
+}
